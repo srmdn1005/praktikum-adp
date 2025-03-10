@@ -3,7 +3,7 @@ b = "Magic Iland"
 c = "Petaka Telaga Biru"
 d = "LDR Paliang Jauah"
 e = "Rain Renjana"
-film = (f"(1){a}      : RP.42.000\n(2){b}         : RP.45.000\n(3){c}  : Rp.45.000\n(4){d}   : Rp.40.000\n(5){e}        : Rp.42.000")
+film = (f"(1){a}      : RP.42.000\n(2){b}         : RP.43.000\n(3){c}  : Rp.45.000\n(4){d}   : Rp.40.000\n(5){e}        : Rp.44.000")
 print("CODE       JUDUL       HARGA TIKET")
 print(film)
 judul = input("Masukkan Judul Film = ")
@@ -12,16 +12,16 @@ if kode == 1:
     harga = 42000
     print(f'Harga Tiket = Rp.{harga}')
 elif kode == 2:
-    harga = 42000
+    harga = 43000
     print(f'Harga Tiket = RP.{harga}')
 elif kode == 3:
-    harga = 42000
+    harga = 45000
     print(f'Harga Tiket = RP.{harga}')
 elif kode == 4:
-    harga = 42000
+    harga = 40000
     print(f'Harga Tiket = Rp.{harga}')
 elif kode == 5:
-    harga = 42000
+    harga = 44000
     print(f'Harga Tiket = Rp.{harga}')
 else:
    print("ERROR")
