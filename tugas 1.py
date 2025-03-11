@@ -6,8 +6,9 @@ e = "Rain Renjana"
 film = (f"(1){a}      : RP.42.000\n(2){b}         : RP.43.000\n(3){c}  : Rp.45.000\n(4){d}   : Rp.40.000\n(5){e}        : Rp.44.000")
 print("CODE       JUDUL       HARGA TIKET")
 print(film)
+print("--------------------------------------------------------")
 judul = input("Masukkan Judul Film = ")
-kode = int(input("Masukkan Kode Film Anda : ")) 
+kode = int(input("Masukkan Kode Film Anda = ")) 
 if kode == 1:
     harga = 42000
     print(f'Harga Tiket = Rp.{harga}')
@@ -36,6 +37,8 @@ else :
 potongan = total*diskon
 total_setelah_diskon = total-potongan
 nama = str(input("Nama Pembeli = "))
+
+print("______________________________________________________")
 print("\n    STRUK PEMESANAN")
 print(f'Nama Pembeli              :{nama}')
 print(f'Judul Film                :{judul}')
@@ -43,7 +46,8 @@ print(f'Jumlah Tiket              :{jumlah}')
 print(f'Harga Satuan Tiket        :Rp.{harga} ')
 print(f'Potongan Harga            :Rp.{potongan}')
 print(f'Total Harga Setelah Diskon:Rp.{total_setelah_diskon}')
-
+print("Ubur Ubur ikan lele\nEnjoy watching lee\nTERIMA KASIH SUDAH BERLANGGANAN")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 
