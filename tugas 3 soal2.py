@@ -1,3 +1,5 @@
+import os
+os.system('cls')
 print()
 print("SOAL 2:MELAKUKAN VALIDASI SUATU PASSWORD")
 print() 
@@ -20,3 +22,4 @@ while True :
         valid = True
         print("PASSWORD VALID")
     break
+#kode yang mungkin belum diajarkan di praktikum diatas saya pelajari dari youtube,dari kelas ADP, dan sumber sumber lainnya
