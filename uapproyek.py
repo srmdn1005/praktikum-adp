@@ -82,7 +82,7 @@ def pesan_makanan():
             '3': "Bakso Telur",
             '4': "Bakso Beranak",
             '5': "Mie Ayam Bakso"
-        }
+        }[pilihan]
 
         item = {"Menu": menu, "Jumlah": jumlah}
         if menu in ["Bakso Urat", "Bakso Telur", "Bakso Beranak"]:
@@ -221,7 +221,7 @@ def estimasi_pesanan():
         print(colored("\nMemproses pesanan Anda", "yellow"))
         cprint(' '*i,'white','on_blue',end='')
         print(f'{i}%')
-        time.sleep(0.5)
+        time.sleep(0.05)
         os.system('cls')
     print(colored("\nPesanan anda telah diterima", "light_green"))
     time.sleep(2)
